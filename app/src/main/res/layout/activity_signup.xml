@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/login_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2560">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="300"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textAlignment="center"
+            android:text="사용자 등록후 다양한 혜택을 누리세요!" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1960"
+        android:background="@drawable/round"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:weightSum="1960">
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="100"
+            android:weightSum="1440">
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:textAlignment="center"
+                android:text="필수정보 입력" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="250"
+            android:weightSum="1440">
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:hint="이메일"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="10dp"
+                android:layout_width="350dp"
+                android:layout_height="0dp"
+                android:layout_weight="900"
+                android:textSize="15dp"
+                android:background="@drawable/signup_edit"
+                android:textCursorDrawable="@drawable/cursor"
+                android:singleLine="true"
+                android:inputType="textEmailAddress" />
+
+            <requestFocus/>
+
+            <TextView
+                android:id="@+id/emailWarning"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="700"
+                android:paddingLeft="10dp"
+                android:text="! 이메일 형식이 올바르지 않습니다."
+                android:textColor="#FF0000"
+                android:visibility="gone" />
+            <!-- 숫자만 입력 가능 -->
+            <!-- 한줄 입력 -->
+            <!-- 입력 글자 수 제한 -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="250"
+            android:weightSum="1440">
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:hint="비밀번호 (6자리 이상)"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="10dp"
+                android:layout_width="350dp"
+                android:layout_height="0dp"
+                android:layout_weight="900"
+                android:textSize="15dp"
+                android:inputType="textPassword"
+                android:background="@drawable/signup_edit"
+                android:textCursorDrawable="@drawable/cursor"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/passwordWarning"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="700"
+                android:text="! 비밀번호 형식이 올바르지 않습니다."
+                android:textColor="#FF0000"
+                android:visibility="gone"
+                android:paddingLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="250"
+            android:weightSum="1440">
+            <EditText
+                android:id="@+id/passwordCheckEditText"
+                android:hint="비밀번호 확인"
+                android:paddingLeft="10dp"
+                android:layout_width="350dp"
+                android:layout_height="0dp"
+                android:layout_weight="900"
+                android:textSize="15dp"
+                android:inputType="textPassword"
+                android:background="@drawable/signup_edit"
+                android:textCursorDrawable="@drawable/cursor"
+                android:singleLine="true"/>
+
+            <TextView
+                android:id="@+id/passwordcheckWarning"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="700"
+                android:text="! 비밀번호를 확인해주세요."
+                android:textColor="#FF0000"
+                android:visibility="gone"
+                android:paddingLeft="10dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="300"
+        android:weightSum="1440">
+
+        <Button
+            android:id="@+id/signUpButton2"
+            android:layout_width="0dp"
+            android:layout_height="51dp"
+            android:layout_weight="1300"
+            android:background="@drawable/signup_btn2"
+            android:text="다음 단계"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/login_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2560">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="300"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textAlignment="center"
+            android:text="사용자 등록후 다양한 혜택을 누리세요!" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1960"
+        android:background="@drawable/round"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:weightSum="1960">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="100"
+            android:weightSum="1440">
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:textAlignment="center"
+                android:text="추가정보 입력" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="250"
+            android:weightSum="1440">
+
+            <EditText
+                android:id="@+id/nameEditText"
+                android:hint="이름"
+                android:paddingLeft="10dp"
+                android:layout_width="350dp"
+                android:layout_height="0dp"
+                android:layout_weight="900"
+                android:textSize="15dp"
+                android:background="@drawable/signup_edit"
+                android:textCursorDrawable="@drawable/cursor"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="250"
+            android:weightSum="1440">
+
+            <EditText
+                android:id="@+id/birthdayEditText"
+                android:hint="생년월일 ( ex.931104 )"
+                android:paddingLeft="10dp"
+                android:layout_width="350dp"
+                android:layout_height="0dp"
+                android:layout_weight="900"
+                android:textSize="15dp"
+                android:inputType="number"
+                android:background="@drawable/signup_edit"
+                android:textCursorDrawable="@drawable/cursor"
+                android:singleLine="true"
+                android:maxLength="6"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="250"
+            android:weightSum="1440">
+
+            <EditText
+                android:id="@+id/genderEditText"
+                android:hint="성별 ( 남성 혹은 여성 )"
+                android:layout_width="350dp"
+                android:layout_height="0dp"
+                android:layout_weight="900"
+                android:background="@drawable/signup_edit"
+                android:textCursorDrawable="@drawable/cursor"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="250"
+            android:weightSum="1440">
+
+            <EditText
+                android:id="@+id/phonenumberEditText"
+                android:hint="핸드폰 번호 ( - 없이 입력해주세요. )"
+                android:paddingLeft="10dp"
+                android:layout_width="350dp"
+                android:layout_height="0dp"
+                android:layout_weight="900"
+                android:textSize="15dp"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:background="@drawable/signup_edit"
+                android:textCursorDrawable="@drawable/cursor"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="250"
+            android:weightSum="1440">
+
+            <EditText
+                android:id="@+id/addressEditText"
+                android:hint="주소"
+                android:paddingLeft="10dp"
+                android:layout_width="350dp"
+                android:layout_height="0dp"
+                android:layout_weight="900"
+                android:textSize="15dp"
+                android:background="@drawable/signup_edit"
+                android:textCursorDrawable="@drawable/cursor"
+                android:singleLine="true"
+                android:inputType="textPostalAddress"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="250"
+            android:weightSum="1440">
+
+            <EditText
+                android:id="@+id/schoolEditText"
+                android:hint="학교 ( ex. 국민대학교)"
+                android:paddingLeft="10dp"
+                android:layout_width="350dp"
+                android:layout_height="0dp"
+                android:layout_weight="900"
+                android:textSize="15dp"
+                android:background="@drawable/signup_edit"
+                android:textCursorDrawable="@drawable/cursor"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="250"
+            android:weightSum="1440">
+
+            <EditText
+                android:id="@+id/majorEditText"
+                android:hint="학과 및 학부 ( ex. 소프트웨어학부)"
+                android:paddingLeft="10dp"
+                android:layout_width="350dp"
+                android:layout_height="0dp"
+                android:layout_weight="900"
+                android:textSize="15dp"
+                android:background="@drawable/signup_edit"
+                android:textCursorDrawable="@drawable/cursor"
+                android:singleLine="true" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="300"
+        android:weightSum="1440">
+
+        <Button
+            android:id="@+id/signUpButton2"
+            android:layout_width="0dp"
+            android:layout_height="51dp"
+            android:layout_weight="1300"
+            android:background="@drawable/signup_btn2"
+            android:text="가입완료"
+            android:textColor="#000000" />
+    </LinearLayout>
+</LinearLayout>

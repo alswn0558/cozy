@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TeamProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- mainActivity -->
+    <string name="main_toolbar_title">Cozy</string>
+    <string name="bottom_nav_home_title">홈</string>
+    <string name="bottom_nav_notification_title">알림</string>
+    <string name="bottom_nav_calender_title">일정</string>
+    <string name="bottom_nav_userinfo_title">내정보</string>
+
+
+    <!-- add_schedule_activity -->
+    <string name="add_schedule_activity_title">글쓰기</string>
+    <string name="date_picker_hint">날짜를 선택해 주세요.</string>
+    <string name="title_hint">제목</string>
+    <string name="contents_hint">내용을 입력해주세요.</string>
+    <string name="save_menu_title">저장</string>
+    <string name="picked_date">%d년 %d월 %d일</string>
+    <string name="inspection_schedule_error">작성하지 않은 항목이 있습니다.</string>
+    <string name="save_schedule_error">현재 글을 쓸 수 없습니다.</string>
+
+    <string name="spinner_prompt">성별</string>
+
+</resources>

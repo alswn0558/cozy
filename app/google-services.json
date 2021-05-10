@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "993941926425",
+    "firebase_url": "https://project-cosy.firebaseio.com",
+    "project_id": "project-cosy",
+    "storage_bucket": "project-cosy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993941926425:android:19554faa0b63bc84ccf088",
+        "android_client_info": {
+          "package_name": "com.example.teamproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993941926425-7bqlbq79aakcnl3t5qrqul5ldjc81cua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsAP3dPulEy_9IHr0sdgjZGJOczuqhvtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993941926425-7bqlbq79aakcnl3t5qrqul5ldjc81cua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
